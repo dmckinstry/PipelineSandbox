@@ -1,0 +1,4 @@
+steps:
+- script: |
+      echo 'Global $(globalVar)'
+      echo 'Job $(jobVar)'
