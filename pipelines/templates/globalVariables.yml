@@ -1,3 +1,5 @@
 variables:
-  GLOBAL_VAR: 'From the global template'
-  LOCAL_VAR: 'Also from the global template'
+- name: GLOBAL_VAR
+  value: 'From the global template'
+- name: LOCAL_VAR
+  value: 'Default from the global template'
