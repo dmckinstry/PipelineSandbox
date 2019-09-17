@@ -1,4 +1,5 @@
 steps:
 - script: |
+      echo 'Secret $(DBCon)'
       echo 'Global $(GLOBAL_VAR)'
       echo 'Job $(LOCAL_VAR)'
