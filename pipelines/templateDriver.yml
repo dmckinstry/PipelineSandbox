@@ -2,7 +2,7 @@ trigger:
 - master
 
 variables:
-- template: globalVariables.yml
+- template: templates/globalVariables.yml
 
 jobs:
 - job: Linux
