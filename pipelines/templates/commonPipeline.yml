@@ -1,4 +1,4 @@
 steps:
 - script: |
-      echo 'Global $(globalVar)'
-      echo 'Job $(jobVar)'
+      echo 'Global $(GLOBAL_VAR)'
+      echo 'Job $(LOCAL_VAR)'
