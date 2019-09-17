@@ -1,4 +1,7 @@
 variables:
+# Note We're pulling Keyvault secrets here but also specifying other variables
+- group: ContosoAirConfg
+
 - name: GLOBAL_VAR
   value: 'From the global template'
 - name: LOCAL_VAR
