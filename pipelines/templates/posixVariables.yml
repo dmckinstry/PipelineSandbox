@@ -1,2 +1,2 @@
 variables:
-- localVar: 'Also from the Posix template'
+  LOCAL_VAR: 'From the Posix variable override'
